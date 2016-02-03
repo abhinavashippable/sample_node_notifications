@@ -39,9 +39,9 @@ integrations:
   notifications:
         - integrationName: email
           type: email
-         # recipients:
-           # - padmakumar.revathi@gmail.com
-           # - exampletwo@org.com
+          recipients:
+            - padmakumar.revathi@gmail.com
+            - --last_commiter
           #branches:
            # only:
             #    - master
