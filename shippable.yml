@@ -39,8 +39,8 @@ integrations:
   notifications:
         - integrationName: email
           type: email
-          recipients:
-            - padmakumar.revathi@gmail.com
+         # recipients:
+           # - padmakumar.revathi@gmail.com
            # - exampletwo@org.com
           #branches:
            # only:
@@ -52,8 +52,8 @@ integrations:
           
         - integrationName: ship-slack
           type: slack
-          recipients:
-            - "#public-chnl"
+          #recipients:
+          #  - "#public-chnl"
             #- channelTwo
           #branches:
            #   only:
