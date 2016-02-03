@@ -33,41 +33,41 @@ integrations:
   hub:
     - integrationName: ship-docker
       type: docker
-      branches:
-        only:
-          - master
+     # branches:
+      #  only:
+       #   - master
   notifications:
         - integrationName: email
           type: email
           recipients:
-            - exampleone@org.com
-            - exampletwo@org.com
-          branches:
-            only:
-                - master
-                - dev
+            - padmakumar.revathi@gmail.com
+           # - exampletwo@org.com
+          #branches:
+           # only:
+            #    - master
+             #   - dev
           on_success: always
           on_failure: always 
           
-        - integrationName: my_slack_integration
+        - integrationName: ship-slack
           type: slack
           recipients:
-            - channelOne
-            - channelTwo
-          branches:
-              only:
-                - master
-                - dev
-          on_success: never
+            - "#public-chnl"
+            #- channelTwo
+          #branches:
+           #   only:
+            #    - master
+             #   - dev
+          on_success: always
           on_failure: always 
-        - integrationName:
+        - integrationName: irc
           type: irc
           recipients:
-            - "chat.freenode.net#channel1"
-            - "chat.freenode.net#channel2"
-          branches:
-            only:
+            - "chat.freenode.net#test-irc"
+            #- "chat.freenode.net#channel2"
+         # branches:
+          #  only:
                 - master
-                - test
-          on_success: never
+               # - test
+          on_success: always
           on_failure: always 
