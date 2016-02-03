@@ -46,6 +46,7 @@ integrations:
            # only:
             #    - master
              #   - dev
+          on_start: always
           on_success: always
           on_failure: always 
           
@@ -57,7 +58,7 @@ integrations:
           #branches:
            #   only:
             #    - master
-             #   - dev
+          on_start: always   #   - dev
           on_success: always
           on_failure: always 
         - integrationName: irc
@@ -69,5 +70,6 @@ integrations:
           #  only:
              #   - master
                # - test
+          on_start: always
           on_success: always
           on_failure: always 
