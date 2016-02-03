@@ -67,7 +67,7 @@ integrations:
             #- "chat.freenode.net#channel2"
          # branches:
           #  only:
-                - master
+             #   - master
                # - test
           on_success: always
           on_failure: always 
