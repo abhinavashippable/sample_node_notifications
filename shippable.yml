@@ -48,7 +48,7 @@ integrations:
             #    - master
              #   - dev
           on_success: never
-          on_failure: always
+          on_failure: never
           
         - integrationName: ship-slack
           type: slack
@@ -60,7 +60,7 @@ integrations:
             #    - master
              #   - dev
           on_success: never
-          on_failure: always
+          on_failure: never
         - integrationName: irc
           type: irc
           recipients:
@@ -71,7 +71,7 @@ integrations:
              #   - master
                # - test
           on_success: never
-          on_failure: always
+          on_failure: never
           on_start: always
           
           
