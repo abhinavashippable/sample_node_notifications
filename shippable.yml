@@ -37,15 +37,15 @@ integrations:
         only:
           - master
   notifications:
-        - integrationName: irc
-          type: irc
-          recipients:
-            - "chat.freenode.net#test-irc"
+    - integrationName: irc
+      type: irc
+      recipients:
+        - "chat.freenode.net#test-irc"
            # - "chat.freenode.net#channel2"
-          branches:
-            only:
-                - master
+          #branches:
+           # only:
+            #    - master
               #  - test
-          on_success: always
-          on_failure: always 
-          on_start: always
+      on_success: always
+      on_failure: always 
+      on_start: always
