@@ -39,7 +39,7 @@ integrations:
   notifications:
         - integrationName: email
           type: email
-          recipients
+          recipients:
             - exampleone@org.com
             - exampletwo@org.com
           branches:
@@ -51,7 +51,7 @@ integrations:
           
         - integrationName: my_slack_integration
           type: slack
-          recipients
+          recipients:
             - channelOne
             - channelTwo
           branches:
@@ -62,7 +62,7 @@ integrations:
           on_failure: always 
         - integrationName:
           type: irc
-          recipients
+          recipients:
             - "chat.freenode.net#channel1"
             - "chat.freenode.net#channel2"
           branches:
