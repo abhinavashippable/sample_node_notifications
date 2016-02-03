@@ -36,38 +36,5 @@ integrations:
       branches:
         only:
           - master
-  notifications:
-        - integrationName: email
-          type: email
-          recipients:
-            - exampleone@org.com
-            - exampletwo@org.com
-          branches:
-            only:
-                - master
-                - dev
-          on_success: always
-          on_failure: always 
-          
-        - integrationName: my_slack_integration
-          type: slack
-          recipients:
-            - channelOne
-            - channelTwo
-          branches:
-              only:
-                - master
-                - dev
-          on_success: never
-          on_failure: always 
-        - integrationName:
-          type: irc
-          recipients:
-            - "chat.freenode.net#channel1"
-            - "chat.freenode.net#channel2"
-          branches:
-            only:
-                - master
-                - test
-          on_success: never
-          on_failure: always 
+  
+       
