@@ -66,7 +66,8 @@ integrations:
           type: irc
           recipients:
             - "chat.freenode.net#test-irc"
-            - "chat.freenode.net#hitchcock-2"
+           # - "chat.freenode.net#hitchcock-2"
+            - "chat.freenode.net#hitchcock2-irc"
          # branches:
           #  only:
              #   - master
