@@ -45,9 +45,9 @@ integrations:
           #branches:
            # only:
             #    - master
-             #   - dev
-          on_success: always
-          on_failure: always 
+          on_start:   
+          #on_success: always
+          #on_failure: always 
           
         - integrationName: ship-slack
           type: slack
@@ -58,19 +58,21 @@ integrations:
            #   only:
             #    - master
              #   - dev
-          on_success: always
-          on_failure: always 
+          on_start: 
+          #on_success: always
+          #on_failure: always 
         - integrationName: irc
           type: irc
           recipients:
-            - "chat.freenode.net#test-irc"
+            - "chat.freenode.net#hitchcock2-irc"
             #- "chat.freenode.net#channel2"
          # branches:
           #  only:
              #   - master
                # - test
-          on_success: always
-          on_failure: always 
+          on_start:
+          #on_success: always
+          #on_failure: always 
           
           
 
