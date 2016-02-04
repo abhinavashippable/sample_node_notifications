@@ -38,7 +38,7 @@ integrations:
       #  only:
        #   - master
   notifications:
-        - integrationName: email
+        - integrationName: emailii
           type: email
           recipients:
             - padmakumar.revathi@gmail.com
