@@ -41,14 +41,14 @@ integrations:
         - integrationName: email
           type: email
           recipients:
-            - revathi@shippable.com
+            - shiphitchcock3@gmail.com
          # on_start: always
           on_success: always
           on_failure: always 
         - integrationName: email
           type: email
           recipients:
-            - revathi@shippable.com
+            - shiphitchcock3@gmail.com
           #on_start: always
           on_success: always
           on_failure: always 
