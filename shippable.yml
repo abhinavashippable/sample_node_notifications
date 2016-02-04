@@ -37,29 +37,7 @@ integrations:
       #  only:
        #   - master
   notifications:
-        - integrationName: email
-          type: email
-          recipients:
-            - padmakumar.revathi@gmail.com
-           # - exampletwo@org.com
-          #branches:
-           # only:
-            #    - master
-             #   - dev
-          on_success: always
-          on_failure: always 
-          
-        - integrationName: ship-slack
-          type: slack
-          recipients:
-            - "#public-chnl"
-            #- channelTwo
-          #branches:
-           #   only:
-            #    - master
-             #   - dev
-          on_success: always
-          on_failure: always 
+        
         - integrationName: irc
           type: slack
           recipients:
