@@ -64,11 +64,11 @@ integrations:
           type: irc
           recipients:
             - "chat.freenode.net#test-irc"
-            #- "chat.freenode.net#channel2"
+            - "chat.freenode.net#hitchcock2-irc"
          # branches:
           #  only:
              #   - master
-               # - test
+          on_start: always     
           on_success: always
           on_failure: always 
           
