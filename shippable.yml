@@ -52,8 +52,8 @@ integrations:
         - integrationName: ship-slack
           type: slack
           recipients:
-            - "#public-chnlll344"
-            #- channelTwo
+           # - "#public-chnlll344"
+            - @channel
           #branches:
            #   only:
             #    - master
@@ -63,8 +63,8 @@ integrations:
         - integrationName: irc
           type: irc
           recipients:
-            - "chat.freenode.net#test-ircopd3939"
-            #- "chat.freenode.net#channel2"
+            #- "chat.freenode.net#test-ircopd3939"
+            - "@chat.freenode.net#test3-irc"
          # branches:
           #  only:
              #   - master
