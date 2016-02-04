@@ -37,7 +37,7 @@ integrations:
       #  only:
        #   - master
   notifications:
-        - integrationName: 
+        - integrationName: email 
           type: email
           recipients:
             - padmakumar.revathi@gmail.com
@@ -50,7 +50,7 @@ integrations:
           on_success: always
           on_failure: always 
           
-        - integrationName: 
+        - integrationName: ship-slack
           type: slack
           recipients:
             - "#public-chnl"
@@ -62,7 +62,7 @@ integrations:
           on_pr: always
           on_success: always
           on_failure: always 
-        - integrationName: 
+        - integrationName: irc
           type: irc
           recipients:
             - "chat.freenode.net#test3-irc"
