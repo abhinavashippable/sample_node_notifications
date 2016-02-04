@@ -42,10 +42,10 @@ integrations:
           recipients:
             - padmakumar.revathi@gmail.com
            # - exampletwo@org.com
-          #branches:
-           # only:
+          branches:
+            only:
             #    - master
-             #   - dev
+                - dev
           on_success: always
           on_failure: always 
           
@@ -54,21 +54,21 @@ integrations:
           recipients:
             - "#public-chnl"
             #- channelTwo
-          #branches:
-           #   only:
+          branches:
+              only:
             #    - master
-             #   - dev
+                - dev
           on_success: always
           on_failure: always 
         - integrationName: irc
           type: irc
           recipients:
-            - "chat.freenode.net#test-irc"
+            - "chat.freenode.net#test3-irc"
             #- "chat.freenode.net#channel2"
-         # branches:
-          #  only:
+          branches:
+            only:
              #   - master
-               # - test
+                - tested
           on_success: always
           on_failure: always 
           
