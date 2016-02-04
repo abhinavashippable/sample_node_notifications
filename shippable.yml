@@ -53,7 +53,7 @@ integrations:
         - integrationName: ship-slack
           type: slack
           recipients:
-            - shiphitchcock3@gmail.com
+            - "#public-chnl"
 
         #  on_success: always
         #  on_failure: always 
@@ -61,9 +61,12 @@ integrations:
          # type: slack
           #recipients:
            # - "#random"
+          branches:
+           only:
+            - test_34
            
-         # on_success: always
-          #on_failure: always 
+          on_success: always
+          on_failure: always 
         - integrationName: irc
           type: irc
           recipients:
