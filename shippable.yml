@@ -52,7 +52,7 @@ integrations:
         - integrationName: ship-slack
           type: slack
           recipients:
-            - "#public-chnlll"
+            - "#public-chnlll344"
             #- channelTwo
           #branches:
            #   only:
@@ -63,7 +63,7 @@ integrations:
         - integrationName: irc
           type: irc
           recipients:
-            - "chat.freenode.net#test-irc"
+            - "chat.freenode.net#test-ircopd3939"
             #- "chat.freenode.net#channel2"
          # branches:
           #  only:
