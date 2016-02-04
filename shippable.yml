@@ -49,10 +49,10 @@ integrations:
           on_success: always
           on_failure: always 
           
-        - integrationName: ship-slack
+        - integrationName: ship-test
           type: slack
           recipients:
-            - "#public-chnl"
+            - "#random"
             #- channelTwo
           #branches:
            #   only:
