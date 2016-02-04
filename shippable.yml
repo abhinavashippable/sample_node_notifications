@@ -36,3 +36,13 @@ integrations:
       branches:
         only:
           - master
+  notifications:
+        - integrationName: ship-slack
+          type: slack
+          recipients: 
+           - "#pubilc-chnl"
+          #  - channelOne
+          #  - channelTwo
+          
+          on_success: always
+          on_failure: always 
