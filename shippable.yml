@@ -46,18 +46,20 @@ integrations:
            # only:
             #    - master
              #   - dev
+          on_start: always
           on_success: always
           on_failure: always 
           
         - integrationName: ship-slack
           type: slack
           recipients:
-            - "#public chnl"
+            - "#public-chnl"
             #- channelTwo
           #branches:
            #   only:
             #    - master
-             #   - dev
+          
+          on_start: always  
           on_success: always
           on_failure: always 
         - integrationName: irc
@@ -69,6 +71,7 @@ integrations:
           #  only:
              #   - master
                # - test
+          on_start: always     
           on_success: always
           on_failure: always 
           
