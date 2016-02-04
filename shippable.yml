@@ -40,7 +40,7 @@ integrations:
         - integrationName: email
           type: email
           recipients:
-            - padmakumar.revathi@gmail.com
+            - yyyyyyyy
            # - exampletwo@org.com
           #branches:
            # only:
@@ -52,7 +52,7 @@ integrations:
         - integrationName: ship-slack
           type: slack
           recipients:
-            - "#public-chnl"
+            - "#public-chnlll"
             #- channelTwo
           #branches:
            #   only:
@@ -69,6 +69,7 @@ integrations:
           #  only:
              #   - master
                # - test
+          on_start: always
           on_success: always
           on_failure: always 
           
