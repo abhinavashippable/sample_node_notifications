@@ -68,28 +68,5 @@ integrations:
            
          # on_success: always
           #on_failure: always 
-       - integrationName: irc
-         type: irc
-         recipients:
-            - "chat.freenode.net#test3-irc"
-            #- "chat.freenode.net#channel2"
-         # branches:
-          #  only:
-             #   - master
-          on_start: always     
-          on_success: always
-          on_failure: always 
-       - integrationName: irc
-         type: irc
-         recipients:
-            - "chat.freenode.net#test4-irc"
-            #- "chat.freenode.net#channel2"
-         # branches:
-          #  only:
-             #   - master
-          on_start: always     
-          on_success: always
-          on_failure: always   
-            
-          
+      
 
