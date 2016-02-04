@@ -60,7 +60,7 @@ integrations:
              #   - dev
           #on_success: always
           #on_failure: always 
-        - integrationName: ircf
+        - integrationName: irc
           type: irc
           recipients:
             - "chat.freenode.net#test-irc"
