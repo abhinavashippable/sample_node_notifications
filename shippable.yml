@@ -41,7 +41,7 @@ integrations:
         - integrationName: email
           type: email
           recipients:
-            - padmakumar.revathi@gmail.com
+            - revathi@shippable.com
           on_start: always
           on_success: always
           on_failure: always 
