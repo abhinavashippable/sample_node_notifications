@@ -42,7 +42,7 @@ integrations:
         - integrationName: irc
           type: irc
           recipients:
-            - "chat.freenode.net#test-irc"
+            - "chat.freenode.net#hitchcock2-irc"
             #- "chat.freenode.net#channel2"
          # branches:
           #  only:
@@ -53,7 +53,7 @@ integrations:
         - integrationName: irc
           type: irc
           recipients:
-            - "chat.freenode.net#test-irc"
+            - "chat.freenode.net#hitchcock2-irc"
             #- "chat.freenode.net#channel2"
          # branches:
           #  only:
