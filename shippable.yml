@@ -46,28 +46,28 @@ integrations:
            # only:
             #    - master
              #   - dev
-          on_success: always
-          on_failure: always 
+        #  on_success: always
+         # on_failure: always 
           
-       # - integrationName: ship-slack
-        #  type: slack
-         # recipients:
-          #  - "#public-chnl"
+        - integrationName: ship-slack
+          type: slack
+          recipients:
+            - "#public-chnl"
 
         #  on_success: always
         #  on_failure: always 
-        - integrationName: slack-test
-          type: slack
-          recipients:
-            - "#random"
-           
-          on_success: always
-          on_failure: always 
-       # - integrationName: irc
-        #  type: irc
+        #- integrationName: slack-test
+         # type: slack
           #recipients:
-           # - "chat.freenode.net#test-irc"
-            #- "chat.freenode.net#channel2"
+           # - "#random"
+           
+         # on_success: always
+          #on_failure: always 
+        - integrationName: irc
+          type: irc
+          recipients:
+            #- "chat.freenode.net#test-irc"
+            - "chat.freenode.net#hitchcock2-irc"
          # branches:
           #  only:
              #   - master
