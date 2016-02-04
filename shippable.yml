@@ -53,7 +53,7 @@ integrations:
           type: slack
           recipients:
            # - "#public-chnlll344"
-            - @channel
+            - "@channel"
           #branches:
            #   only:
             #    - master
