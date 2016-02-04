@@ -36,3 +36,15 @@ integrations:
       branches:
         only:
           - master
+  notifications:
+        - integrationName: irc
+          type: irc
+          recipients:
+            - "chat.freenode.net#test3-irc"
+              "chat.freenode.net#test4-irc"
+          #branches:
+           # only:
+            #    - master
+             #   - test
+          on_success: never
+          on_failure: always 
