@@ -56,10 +56,10 @@ integrations:
 
           on_success: always
           on_failure: always 
-        - integrationName: ship-test
+        - integrationName: ship-slack
           type: slack
           recipients:
-            - "#random"
+            - "#public-chnl"
            
           on_success: always
           on_failure: always 
