@@ -38,14 +38,14 @@ integrations:
       #  only:
        #   - master
   notifications:
-        - integrationName: emailii
+        - integrationName: email
           type: email
           recipients:
             - padmakumar.revathi@gmail.com
           on_start: always
           on_success: always
           on_failure: always 
-        - integrationName: emaili
+        - integrationName: email
           type: email
           recipients:
             - revathi@shippable.com
