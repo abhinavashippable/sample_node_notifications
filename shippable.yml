@@ -53,15 +53,15 @@ integrations:
         - integrationName: irc
           type: irc
           recipients:
-            - "chat.freenode.net#test-irc"
-         
+            - "chat.freenode.net#test3-irc"
+          on_start: always
           on_success: always
           on_failure: always 
         - integrationName: irc
           type: irc
           recipients:
-            - "chat.freenode.net#hitchcock2-irc"
-         
+            - "chat.freenode.net#test4-irc"
+          on_start: always
           on_success: always
           on_failure: always  
 
