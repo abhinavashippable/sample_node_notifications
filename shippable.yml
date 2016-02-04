@@ -39,9 +39,9 @@ integrations:
   notifications:
         - integrationName: irc
           type: irc
-          recipients:
-              "chat.freenode.net#test3-irc"
-              "chat.freenode.net#test4-irc"
+          recipients:  "chat.freenode.net#test3-irc"
+              #"chat.freenode.net#test3-irc"
+             # "chat.freenode.net#test4-irc"
           #branches:
            # only:
             #    - master
