@@ -49,7 +49,7 @@ integrations:
           on_success: always
           on_failure: always 
           
-        - integrationName: ship-slack
+        - integrationName: ship-slack2
           type: slack
           recipients:
             - "#public-chnl"
@@ -60,7 +60,7 @@ integrations:
              #   - dev
           on_success: always
           on_failure: always 
-        - integrationName: irc
+        - integrationName: ircs
           type: irc
           recipients:
             - "chat.freenode.net#test-irc"
