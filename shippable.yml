@@ -51,7 +51,7 @@ integrations:
           on_failure: always 
           
         - integrationName: ship-slack
-          type: slack
+          type: email
           recipients:
             - "#public-chnl"
             #- channelTwo
