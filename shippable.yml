@@ -37,27 +37,17 @@ integrations:
       #  only:
        #   - master
   notifications:
-        - integrationName: email
-          type: email
+       
+       
+        - integrationName: irc
+          type: irc
           recipients:
-            - padmakumar.revathi@gmail.com
-           # - exampletwo@org.com
-          #branches:
-           # only:
-            #    - master
-             #   - dev
-          on_success: always
-          on_failure: always 
-          
-        - integrationName: ship-slack
-          type: slack
-          recipients:
-            - "#public-chnl"
-            #- channelTwo
-          #branches:
-           #   only:
-            #    - master
-             #   - dev
+            - "chat.freenode.net#test-irc"
+            #- "chat.freenode.net#channel2"
+         # branches:
+          #  only:
+             #   - master
+               # - test
           on_success: always
           on_failure: always 
         - integrationName: irc
@@ -70,7 +60,6 @@ integrations:
              #   - master
                # - test
           on_success: always
-          on_failure: always 
-          
+          on_failure: always  
           
 
