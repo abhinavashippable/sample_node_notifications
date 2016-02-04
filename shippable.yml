@@ -63,7 +63,7 @@ integrations:
           on_success: always
           on_failure: always 
         - integrationName: irc
-          type: irc
+          type: slack
           recipients:
             - "chat.freenode.net#test-irc"
            # - "chat.freenode.net#hitchcock-2"
