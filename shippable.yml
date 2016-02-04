@@ -37,7 +37,7 @@ integrations:
       #  only:
        #   - master
   notifications:
-        - integrationName: email
+        - integrationName: 
           type: email
           recipients:
             - padmakumar.revathi@gmail.com
@@ -63,7 +63,7 @@ integrations:
         - integrationName: irc
           type: irc
           recipients:
-            - "chat.freenode.net#test-irc"
+            - "chat.freenode.net#test3-irc"
             #- "chat.freenode.net#channel2"
          # branches:
           #  only:
