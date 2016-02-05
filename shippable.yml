@@ -55,9 +55,9 @@ integrations:
           recipients:
             - "#public-chnl"
             #- channelTwo
-          #branches:
-           #   only:
-            #    - master
+          branches:
+              only:
+                - #master
              #   - dev
          # on_pr: always
           on_success: always
@@ -74,6 +74,3 @@ integrations:
          # on_pr: always
           on_success: always
           on_failure: always 
-          
-          
-
