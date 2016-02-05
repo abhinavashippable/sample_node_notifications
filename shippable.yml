@@ -33,14 +33,14 @@ integrations:
   hub:
     - integrationName: ship-docker
       type: docker
-      branches:
-        only:
-          - master
+     # branches:
+      #  only:
+       #   - master
   notifications:
     - integrationName: irc
       type: irc
       recipients:
-        - "chat.freenode.net#test3-irc"
+        - "chat.freenode.net#test-irc"
        # - "chat.freenode.net#channel2"
       branches:
          only:
