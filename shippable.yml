@@ -44,6 +44,6 @@ integrations:
          - "chat.freenode.net#test-irc"
          #"chat.freenode.net#hitchcock4-irc"
       
-      on_success: never
+      on_success: always
       on_failure: never
       #on_start: always
