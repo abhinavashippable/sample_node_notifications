@@ -44,7 +44,7 @@ integrations:
         - "chat.freenode.net#hitchcock4-irc"
       branches:
          only:
-           - test_745
+           - test_42
               #  - test
       on_success: always
       on_failure: always 
