@@ -40,11 +40,11 @@ integrations:
     - integrationName: irc
       type: irc
       recipients:
-        - "chat.freenode.net#test-irc"
-           # - "chat.freenode.net#channel2"
-          #branches:
-           # only:
-            #    - master
+        - "chat.freenode.net#test3-irc"
+       # - "chat.freenode.net#channel2"
+      branches:
+         only:
+           - test_745
               #  - test
       on_success: always
       on_failure: always 
