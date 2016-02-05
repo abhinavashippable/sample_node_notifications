@@ -46,7 +46,7 @@ integrations:
            # only:
             #    - master
              #   - dev
-          on_pr: always
+         # on_pr: always
           on_success: always
           on_failure: always 
           
@@ -59,7 +59,7 @@ integrations:
            #   only:
             #    - master
              #   - dev
-          on_pr: always
+         # on_pr: always
           on_success: always
           on_failure: always 
         - integrationName: irc
@@ -67,11 +67,11 @@ integrations:
           recipients:
             - "chat.freenode.net#test-irc"
             #- "chat.freenode.net#channel2"
-         # branches:
-          #  only:
-             #   - master
+          branches:
+          only:
+            - #master
                # - test
-          on_pr: always
+         # on_pr: always
           on_success: always
           on_failure: always 
           
