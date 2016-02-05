@@ -45,5 +45,5 @@ integrations:
          #"chat.freenode.net#hitchcock4-irc"
       
       on_success: change
-      on_failure: change
+      on_failure: always
       #on_start: always
