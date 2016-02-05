@@ -47,7 +47,7 @@ integrations:
             #    - master
              #   - dev
           on_start: always
-          on_pr: always
+          on_pr: never
           on_success: always
           on_failure: always 
           
@@ -61,7 +61,7 @@ integrations:
             #    - master
              #   - dev
           on_start: always
-          on_pr: always
+          on_pr: never
           on_success: always
           on_failure: always 
         - integrationName: irc
@@ -74,7 +74,7 @@ integrations:
              #   - master
                # - test
           on_start: always
-          on_pr: always
+          on_pr: never
           on_success: always
           on_failure: always 
           
