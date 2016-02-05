@@ -56,7 +56,7 @@ integrations:
           type: slack
           recipients: 
           "#public-chnl"
-             
+          "#random"   
             #- channelTwo
           #branches:
            #   only:
