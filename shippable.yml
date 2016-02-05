@@ -38,7 +38,7 @@ integrations:
        #   - master
   notifications:
     - integrationName: irc
-      type: irc
+      type: slack
       recipients:
         # "chat.freenode.net#test-irc"
          #"chat.freenode.net#hitchcock4-irc"
