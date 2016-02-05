@@ -39,39 +39,41 @@ integrations:
   notifications:
         - integrationName: email
           type: email
-          recipients:
-            - padmakumar.revathi@gmail.com
+          recipients: padmakumar.revathi@gmail.com
+            
            # - exampletwo@org.com
           #branches:
            # only:
             #    - master
              #   - dev
-          on_pr: always
+          #on_pr: always
+          on_start: always
           on_success: always
           on_failure: always 
           
         - integrationName: ship-slack
           type: slack
-          recipients:
-            - "#public-chnl"
+          recipients: "#public-chnl"
+             
             #- channelTwo
           #branches:
            #   only:
             #    - master
              #   - dev
-          on_pr: always
+          on_start: always
           on_success: always
           on_failure: always 
         - integrationName: irc
           type: irc
-          recipients:
-            - "chat.freenode.net#test-irc"
+          recipients: "chat.freenode.net#test-irc"
+             
             #- "chat.freenode.net#channel2"
          # branches:
           #  only:
              #   - master
                # - test
-          on_pr: always
+          #on_pr: always
+          on_start: always
           on_success: always
           on_failure: always 
           
