@@ -41,7 +41,7 @@ integrations:
           type: email
           recipients:
             - padmakumar.revathi@gmail.com
-          on_pr: always
+          on_pull_request: always
           on_success: always
           on_failure: always 
           
@@ -50,7 +50,7 @@ integrations:
           recipients:
             - "#public-chnl"
          
-          on_pr: always
+          on_pull_request: always
           on_success: always
           on_failure: always 
         - integrationName: irc
@@ -58,7 +58,7 @@ integrations:
           recipients:
             - "chat.freenode.net#test-irc"
       
-          on_pr: always
+          on_pull_request: always
           on_success: always
           on_failure: always 
           
