@@ -28,12 +28,6 @@ build:
     #- if [ "$SHIPPABLE_NODE_VERSION" == "0.12" ]; then foobar; fi
 
 integrations:
-  hub:
-    - integrationName: ship-docker
-      type: docker
-     # branches:
-      #  only:
-       #   - master
   notifications:
         - integrationName: email
           type: email
