@@ -27,9 +27,6 @@ build:
     - ls -al
     #- if [ "$SHIPPABLE_NODE_VERSION" == "0.12" ]; then foobar; fi
 
-  post_ci:
-    - docker push shippabledocker/hitchcock3_sample_node
-
 integrations:
   hub:
     - integrationName: ship-docker
@@ -47,14 +44,6 @@ integrations:
           on_success: always
           on_failure: always 
           
-        - integrationName: ship-slack
-          type: slack
-          recipients:
-            - "#abhinav"
-          on_start: always
-          on_pull_request: always
-          on_success: always
-          on_failure: always 
         - integrationName: irc
           type: irc
           recipients:
